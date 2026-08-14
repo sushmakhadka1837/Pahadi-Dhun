@@ -18,27 +18,26 @@ var SONGS = [
   { id: "YjgC4rmKLtM", title: "दुईटा फूल देउरालीमा", artist: "नारायण गोपाल", rotation: "bihati", tags: ["old", "evergreen"] },
 
   { id: "RGv7-d3uOXM", title: "सुदूरपश्चिम स्वर्ग सरि", artist: "महेश कुमार औजी र गौरी भट्ट", rotation: "deuda", tags: ["deuda"] },
-  { id: "CHBFwJbeqRk", title: "सुदूरपश्चिम स्वर्ग सरि", artist: "मदन जोशी", rotation: "deuda", tags: ["deuda"] },
-  { id: "wIXhxaiZCSA", title: "सुदूरपश्चिम स्वर्ग सरि (पुरानो)", artist: "नीरज दत्त बडु", rotation: "deuda", tags: ["deuda", "old"] },
+
   { id: "qz_8mDk-Sv0", title: "ओ साली कि खेल्दे ड्यौड़ा", artist: "भरत भट्ट, गौरी भट्ट र झलक भट्ट", rotation: "deuda", tags: ["deuda"] },
   { id: "vo7Lh-_83os", title: "मसुरडाँडी", artist: "चक्र बम, रोहित डेउबा र गौरी भट्ट", rotation: "deuda", tags: ["deuda"] },
   { id: "Uiti-CRxmLE", title: "डोटेली ड्यौड़ा", artist: "विजयसेन ओझा", rotation: "deuda", tags: ["deuda"] },
   { id: "rqpctJG3r2A", title: "हानेर नजरकी तिर", artist: "रेश बिसी र रेखा जोशी", rotation: "deuda", tags: ["dohori"] },
-  { id: "uLR6d0j-83U", title: "न्याउल्या", artist: "१३२ भन्दा बढी कलाकारहरू", rotation: "deuda", tags: ["deuda", "old"] },
-  { id: "7KYCBRApCQk", title: "राई झुमा", artist: "परम्परागत देउडा", rotation: "deuda", tags: ["deuda", "old", "evergreen"] },
-  { id: "KQVwtjzzuc8", title: "राई झुमा", artist: "यज्ञराज उपाध्याय र कोमल ओली", rotation: "deuda", tags: ["deuda", "old", "evergreen"] },
+  { id: "uLR6d0j-83U", title: "न्याउल्या", artist: "१३२ भन्दा बढी कलाकारहरू", rotation: "deuda", tags: ["deuda", ] },
+  { id: "7KYCBRApCQk", title: "राई झुमा", artist: "परम्परागत देउडा", rotation: "deuda", tags: ["deuda", "old", ] },
+
   { id: "3-kDw_KIypU", title: "New Deuda Songs Jukebox 2081", artist: "Bishnu Majhi, Raju Pariyar, Gorakh Thapa, Dipa Rokaya, Bhuwan Dahal & Mahesh Kumar Auji", rotation: "deuda", tags: ["deuda", "jukebox", "2081"] },
   { id: "Fvzhn7bNvQU", title: "रामजी खाँड · Songs Collection 2082 Jukebox", artist: "रामजी खाँड", rotation: "deuda", tags: ["deuda", "old", "jukebox", "2082"] },
 
-  { id: "E2A5YLSPliM", title: "हेरना हेर कान्छा", artist: "अरुणा लामा र जितेन्द्र बर्देवा", rotation: "saajh", tags: ["old", "evergreen", "dohori"] },
-  { id: "8uIaRZrB6Jk", title: "पोहोर साल खुसी", artist: "अरुणा लामा", rotation: "saajh", tags: ["old", "evergreen", "dohori"] },
-  { id: "Jg8sUojDgXw", title: "एउटा मान्छेको", artist: "नारायण गोपाल", rotation: "saajh", tags: ["old", "evergreen"] },
+  { id: "E2A5YLSPliM", title: "हेरना हेर कान्छा", artist: "अरुणा लामा र जितेन्द्र बर्देवा", rotation: "saajh", tags: [ "evergreen", ] },
+  { id: "8uIaRZrB6Jk", title: "पोहोर साल खुसी", artist: "अरुणा लामा", rotation: "saajh", tags: ["old", ] },
+  { id: "Jg8sUojDgXw", title: "एउटा मान्छेको", artist: "नारायण गोपाल", rotation: "saajh", tags: ["old", ] },
   { id: "ayRlE-xdaRE", title: "आँखामा मेरो", artist: "अरुणा लामा", rotation: "saajh", tags: ["old", "evergreen"] },
-  { id: "ftjIrijCRU4", title: "गोपाल योञ्जन · Jukebox Vol 3", artist: "गोपाल योञ्जन", rotation: "saajh", tags: ["old", "evergreen"] },
-  { id: "7ofFfa0TIFA", title: "गोपाल योञ्जन · Hits Vol 2", artist: "गोपाल योञ्जन", rotation: "saajh", tags: ["old", "evergreen"] },
+  { id: "ftjIrijCRU4", title: "गोपाल योञ्जन · Jukebox Vol 3", artist: "गोपाल योञ्जन", rotation: "saajh", tags: ["old", ] },
+  { id: "7ofFfa0TIFA", title: "गोपाल योञ्जन · Hits Vol 2", artist: "गोपाल योञ्जन", rotation: "saajh", tags: ["old", ] },
 
   { id: "nuiQNVVyjjM", title: "झिक्कै झिक्कै माया", artist: "बालेन शाह", rotation: "raat", tags: ["modern"] },
-  { id: "Owg-NzcfAkw", title: "जाउ पाटा", artist: "नवराज कलौनी र पुष्पा बोहोरा", rotation: "deuda", tags: ["deuda", "old", "evergreen"] },
+  { id: "Owg-NzcfAkw", title: "जाउ पाटा", artist: "नवराज कलौनी र पुष्पा बोहोरा", rotation: "deuda", tags: ["deuda"] },
   { id: "AoqRRXud37o", title: "काठमाडौँ बसियाकी", artist: "रोहित बिष्ट र लक्ष्मी नेपाली", rotation: "raat", tags: ["dohori"] },
   { id: "0DbIE8446aE", title: "के लाग्यो बाजाको माया", artist: "निरुता खत्री", rotation: "raat", tags: ["dohori"] },
   { id: "PHeLsDSV7lg", title: "मसुरडाँडी (Lyrics)", artist: "चक्र बम र गौरी भट्ट", rotation: "raat", tags: ["deuda"] }

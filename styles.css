@@ -297,39 +297,6 @@ body::after {
   letter-spacing: .08em;
 }
 
-.online::before {
-
-  content: "";
-
-  display: inline-block;
-
-  width: 7px;
-  height: 7px;
-
-  margin-right: 6px;
-
-  border-radius: 50%;
-
-  background: #e2ad63;
-
-  box-shadow:
-    0 0 12px rgba(226,173,99,.9);
-
-  animation:
-    onlinePulse 2s infinite;
-}
-
-@keyframes onlinePulse {
-
-  0%,100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: .4;
-  }
-}
-
 
 /* =========================================================
    HERO

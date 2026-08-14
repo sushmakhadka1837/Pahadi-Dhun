@@ -114,7 +114,6 @@
   function bind() {
     els.clock = $("clock");
     els.nptTime = $("nptTime");
-    els.online = $("online");
     els.art = $("artWrap");
     els.nowTitle = $("nowTitle");
     els.nowArtist = $("nowArtist");
@@ -143,24 +142,6 @@
     var t = devNum(pad2(n.getHours())) + ":" + devNum(pad2(n.getMinutes()));
     els.clock.textContent = t;
     if (els.nptTime) els.nptTime.textContent = t;
-  }
-
-  /* ---------- online counter ---------- */
-  function onlineBase() {
-    var k = "pahadidhun_online";
-    var v = parseInt(localStorage.getItem(k), 10);
-    if (isNaN(v)) v = 18 + Math.floor(Math.random() * 24);
-    v = Math.max(4, Math.min(80, v));
-    localStorage.setItem(k, v);
-    return v;
-  }
-  function tickOnline() {
-    var v = onlineBase();
-    v += Math.floor(Math.random() * 6) - 2;
-    v = Math.max(3, Math.min(84, v));
-    localStorage.setItem("pahadidhun_online", v);
-    els.online.textContent = devNum(v) + " online";
-    setTimeout(tickOnline, 5000 + Math.random() * 9000);
   }
 
   /* ---------- player controls ---------- */
@@ -503,7 +484,6 @@
     bind();
     tickClock();
     setInterval(tickClock, 30000);
-    tickOnline();
     setInterval(function () {
       if (apiReady && player && typeof player.getPlayerState === "function") {
         var st = player.getPlayerState();
